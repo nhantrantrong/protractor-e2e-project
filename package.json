@@ -1,0 +1,25 @@
+{
+  "name": "e2e-project",
+  "version": "1.0.0",
+  "description": "e2e-project automation testing framework",
+  "main": "conf.ts",
+  "scripts": {
+    "test": "protractor ./conf.ts",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
+    "run-test-suite": "protractor ./conf.ts --suite homepage"
+  },
+  "author": "Nhan Tran Trong",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.5.3",
+    "@types/node": "^13.7.1",
+    "core-util-is": "^1.0.2",
+    "jasmine": "^3.5.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.4",
+    "protractor-html-reporter-2": "^1.0.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
