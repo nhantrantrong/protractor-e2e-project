@@ -1,9 +1,11 @@
 {
-  "name": "e2e-project",
+  "name": "protractor-e2e-project",
   "version": "1.0.0",
   "description": "e2e-project automation testing framework",
   "main": "conf.ts",
   "scripts": {
+    "setup": "npm install",
+    "compile": "rm -rf dist && tsc",
     "test": "protractor ./conf.ts",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",

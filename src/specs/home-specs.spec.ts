@@ -1,11 +1,8 @@
 import { browser } from "protractor";
-import { ConfigFunctions } from "src/core/configurations/configFunctions";
-
-// Init necessary class
-const confFunctions = new ConfigFunctions();
+import { configFunctions } from "src/core/core-functions/configFunctions";
 
 // Load test case configurations
-const mainConfigs = confFunctions.loadConfig();
+const mainConfigs = configFunctions.loadConfig();
 
 describe("A Feature", async () => {
     it("contains scenario with an expectation", async () => {
