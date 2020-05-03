@@ -3,8 +3,18 @@ This is sample project to self study protractor
 
 
 ## I. Clone repository to local machine
-## II. Run following command to install necessary libs and update webdriver-manager
-npm run sertup
+## II. Commands
+#### Install necessary libs and update webdriver-manager
+npm run setup
 
-## III. Start selenium server by following command
+#### Start selenium server by following command
 npm run webdriver-start
+
+#### Compile test script
+npm run compile
+
+#### Execute test script
+npm run test
+
+#### Execute test suite
+npm run test-suite
