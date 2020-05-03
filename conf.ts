@@ -16,12 +16,12 @@ exports.config = {
 
     //Name of the Specfile
     specs: [
-        './dist/**/specs/**/*.spec.js',
-        './dist/**/specs/homepage/*.spec.js'
+        './.dist/**/specs/**/*.spec.js',
+        './.dist/**/specs/homepage/*.spec.js'
     ],
 
     suites: {
-        homepage: './dist/**/specs/homepage/**/*.spec.js',
+        homepage: './.dist/**/specs/homepage/**/*.spec.js',
         search: ['tests/e2e/contact_search/**/*Spec.js',
             'tests/e2e/venue_search/**/*Spec.js']
     },
