@@ -9,7 +9,7 @@
     "test": "protractor ./conf.ts",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",
-    "run-test-suite": "protractor ./conf.ts --suite homepage"
+    "test-suite": "protractor ./conf.ts --suite homepage"
   },
   "author": "Nhan Tran Trong",
   "license": "ISC",
